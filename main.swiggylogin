@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Login Page</title>
+
+    <style>
+
+        #demo{
+            height: 300px;
+            width: 500px;
+            border: 5px solid white;
+            position: absolute;
+            top: 290px;
+            left: 380px;
+            border-radius: 20px;
+        }
+        #label{
+            position: relative;
+            top: 65px;
+            left: 60px;
+            color: white;
+        }
+        #input{
+            position: relative;
+            top: 20px;
+            left: 155px; 
+            border: 2px solid white;
+            border-radius: 4px;
+        }
+        #label1{
+            position: relative;
+            top: 30px;
+            left: 60px;
+            color: white;
+        }
+        #input1{
+            position: relative;
+            top: -24px;
+            left: 155px; 
+            border: 2px solid white;
+            border-radius: 4px;
+        }
+        button{
+            position: relative;
+            top: 60px;
+            right: 35px;
+            height: 35px;
+            width: 100px;
+            background-color: rgb(249, 107, 56);
+            color: white;
+            text-align: center;
+            font-weight: bolder;
+            font-size: larger;
+            border-radius: 10px;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+        h1{
+            position: relative;
+            bottom: 290px;
+            left: 125px;
+            font-size: 50px;
+            color: white;
+        }
+        #input2{
+            position: relative;
+            top: 25px;
+            right: 372px;
+            cursor: pointer;
+        }
+        #label2{
+            position: relative;
+            right: 250px;
+            top: 23px;
+            color: white;
+        }
+        h4{
+            color: white;
+            position: relative;
+            left: 350px;
+            bottom: 24px;
+            cursor: pointer;
+        }
+        h5{
+            color: white;
+            position: relative;
+            bottom: -13px;
+            left: 153px;
+            cursor: pointer;
+        }
+        img{
+            background-color: rgb(249, 107, 56);
+            height: 600px;
+            width: 600px;
+            position: absolute;
+            bottom: 220px;
+            left: 320px;
+        }
+
+        
+    </style>
+
+</head>
+<body style="background-color: rgb(249, 107, 56);">
+
+    <img src="../IMAGES/Swiggy.png" alt="">
+    
+    <div id="demo">
+        <form action="./swiggy webpage.html">
+            <label id="label"><h2>E-mail </h2> &emsp;</label>
+            <input id="input" type="email" name="email" size="35px" placeholder="Email or Phone number" required>
+            <label id="label1"><h2>Password </h2> &emsp;</label>
+            <input id="input1" type="password" name="password" size="25px" placeholder="Password" required>
+            <a href="./swiggy webpage.html"><button>LOGIN</button></a>
+            <label id="label2">Remember me</label>
+            <input id="input2" type="checkbox">
+            <h4>Forgot Password?</h4>
+            <h5> Don't have an account? Register</h5>
+        </form>
+        <h1>Login Form</h1>
+    </div>
+    
+</body>
+</html>
